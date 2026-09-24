@@ -6,7 +6,10 @@ public class GCD {
         if (b == 0) {
             return a; // when b = 0, a is the required GCD
         }
-        return gcd(b, a % b); // each time 'b' becomes 'a' and 'b' becomes the mod of previous (a, b) pair
+        return gcd(b, a % b); /*
+                               * each time previous 'b' becomes current 'a' and current 'b' becomes the mod of
+                               * previous (a, b) pair
+                               */
     }
 
     public static void main(String[] args) {
