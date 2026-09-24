@@ -18,7 +18,7 @@ public class GCD {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
-        System.out.println("Greatest Common Factor of " + a + " and " + b + " = " + ob.gcd(a, b));
+        System.out.println("Greatest Common Divisor of " + a + " and " + b + " = " + ob.gcd(a, b));
 
         sc.close();
     }
